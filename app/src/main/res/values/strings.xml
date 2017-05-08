@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">CS 478 Proj1</string>
+    <string name="welcomeMessage">Welcome to CS 478 Project 1!</string>
+    <string name="dialer">Dialer</string>
+    <string name="android_docs">Android Docs</string>
+    <string name="verify">Verify</string>
+    <string name="valid_phone_number">Valid Phone Number Entered</string>
+    <string name="invalid_phone_number">Invlid Phone Number Entered</string>
+    <string name="action_about">About</string>
+    <string name="author_text">Author: Aloysius Paredes</string>
+    <string name="version_text">Version: 1.0</string>
+    <string name="date_text">Date Updated: Feb 6, 2017</string>
+    <string name="project_description_text">Design and implement an app implementing the following functionality. The app starts off with a main activity containing a welcome message and two buttons arranged vertically below the welcome message. The functionality of the two buttons is explained below:
+    If the user selects the top button, your app uses an explicit intent to start a child activity, which contains a text editor window and a button. The text editor window is initially empty. The user then types some text. Embedded in the text could be a phone number in one of the following formats: “yyy-zzzz”, “(xxx) yyy-zzzz” or “(xxx)yyy-zzzz”. (All formats must be supported by your app.) When the text (possibly containing a phone number) is complete, the user will press the button. Now your app will look for a phone number embedded in the text typed by the user. If a phone number conforming to one of the above formats is found, your app will use an implicit intent to open the predefined dialer activity in the Phone app of your emulator, without dialing the number. If no phone numbers are found in the text typed by the user, no action is taken. If, however, there are multiple phone numbers in the text, only the first such number is chosen. In addition, before exiting the child activity sets result code to be sent to the main activity. The main activity uses this result code to display a message indicating whether the child activity was successful in finding a phone number or not.
+    If the user selects the bottom button, your app will use an implicit intent to start an activity in a browser contained in your emulator and open the Android documentation page: https://developer.android.com/index.html</string>
+    <string name="formats_text">Enter a phone number with one of the following formats: xxx-yyyy, (xxx)yyy-zzzz, or (xxx) yyy-zzzz</string>
+    <string name="create_playlist">Create Playlist</string>
+    <string name="clear_all_selections">Clear All Selections</string>
+    <string name="invert_selections">Invert Selections</string>
+    <string name="action_check_all_items">Check All Items</string>
+</resources>
